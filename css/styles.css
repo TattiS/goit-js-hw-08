@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+.gallery {
+  width: 1440px;
+  padding: 24px 156px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 24px;
+  background: #fff;
+}
+
+.gallery-item,
+.gallery-image {
+  width: 360px;
+  height: 200px;
+}
