@@ -3,6 +3,9 @@
   margin: 0px;
   padding: 0px;
 }
+li {
+  list-style: none;
+}
 
 .gallery {
   width: 1440px;
@@ -20,4 +23,9 @@
 .gallery-image {
   width: 360px;
   height: 200px;
+  transition: transform 0.3s ease;
+}
+.gallery-item:hover,
+.gallery-image:hover {
+  transform: scale(1.04);
 }
