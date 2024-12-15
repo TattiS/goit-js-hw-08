@@ -80,6 +80,7 @@ let content = images
 </li>`
   )
   .join("");
+
 list.insertAdjacentHTML("beforeend", content);
 
 const links = document.querySelectorAll("a.gallery-link");
