@@ -93,7 +93,7 @@ links.forEach((el) => {
 list.addEventListener("click", (event) => {
   if (event.target.nodeName === "IMG") {
     const instance = basicLightbox.create(
-      `<img src="${event.target.dataset.source}" width="1112px" height="640px"/>`
+      `<img src="${event.target.dataset.source}"/>`
     );
 
     instance.show();
